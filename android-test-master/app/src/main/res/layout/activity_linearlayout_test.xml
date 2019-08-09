@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light"/>
+        <View
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light"/>
+        <View
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"/>
+        <View
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_purple"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/blue1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/blue2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/blue3"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/blue4"/>
+    </LinearLayout>
+</LinearLayout>
